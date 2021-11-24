@@ -1,0 +1,28 @@
+
+#field1,#field2{
+    width: fit-content;
+    text-align: center;
+    top: 30px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+#field1{
+    position: relative;
+    left: 40px;
+    padding-left: 25px;
+    
+}
+
+#formAgregarLibro input[type=text]{
+    width: 180px;
+    margin: 5px;
+}
+
+#field2{
+    position: absolute;
+    top: 35px;
+    left: 600px;
+}
+

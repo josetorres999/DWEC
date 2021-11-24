@@ -1,0 +1,29 @@
+#izq,#der{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    opacity: 0.25;
+    position: absolute;
+}
+
+#izq{
+    top: 45%;
+    left: 10px;
+}
+
+#der{
+    top: 45%;
+    right: 10px;
+}
+
+#img, #div{
+    width: 100%;
+    height: 650px;
+}
+
+
+
+
+#der:hover,#izq:hover{
+    opacity: 0.75;
+}
