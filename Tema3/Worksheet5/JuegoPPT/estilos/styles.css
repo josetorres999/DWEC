@@ -1,0 +1,45 @@
+#padre{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    background-color: beige;
+    text-align: center;
+}
+
+#jug1{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 33%;
+    height: 50%;
+    background-color: grey;
+}
+
+#jug1 div, #jug2 div{
+    width: 100%;
+    height: 24%;
+    background-color: seashell;
+    border-bottom: black solid 1px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#jug2{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 33%;
+    height: 50%;
+    background-color: grey;
+}
+
+#btJugar{
+    margin-top: 300px;
+    width: 90px;
+    height: 50px;
+    font-size: 25px;
+}
